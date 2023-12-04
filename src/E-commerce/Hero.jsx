@@ -9,8 +9,8 @@ const Hero = () => {
             <div className='flex justify-between items-center max-w-[1280px] mx-auto  h-screen pt-10  md:gap-4 flex-col md:flex-row '>
                 <div className='  md:w-1/2 h-auto '>
                     {/* Todo h1 section   */}
-                    <h1 class="inline-block bg-gradient-to-r from-emerald-400 to-cyan-400  bg-clip-text text-7xl text-transparent font-serif text-center   font-bolder">Elevate Your Style </h1>
-                    <h1 class=" bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 bg-clip-text text-3xl md:text-5xl text-center  text-transparent font-serif   pt-4  font-bold">With WatchMe </h1>
+                    <h1 className="inline-block bg-gradient-to-r from-emerald-400 to-cyan-400  bg-clip-text text-7xl text-transparent font-serif text-center   font-bolder">Elevate Your Style </h1>
+                    <h1 className=" bg-gradient-to-r from-blue-600 via-green-500 to-indigo-400 bg-clip-text text-3xl md:text-5xl text-center  text-transparent font-serif   pt-4  font-bold">With WatchMe </h1>
                     <p className='pt-3 text-center block mx-auto text-grey-400'>Welcome to WatchMe, where fashion meets individuality. Our mission is simple:<span className='text-center block mx-auto'>to help you express yourself through the art of clothing. </span>.</p>
 
 
