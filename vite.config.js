@@ -12,9 +12,12 @@ export default defineConfig({
   plugins: [react()],
   build: {
     build: {
-      rollupOptions: {
-        external: ['react-redux', 'react-router-dom','@reduxjs/toolkit']
+      build: {
+        rollupOptions: {
+          external: ['react-redux', 'react-router-dom', '@reduxjs/toolkit']
+        }
       }
+      
     }
     ,
   },
