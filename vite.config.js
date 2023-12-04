@@ -11,17 +11,12 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    build: {
-      build: {
-        rollupOptions: {
-          external: ['react-redux', 'react-router-dom', '@reduxjs/toolkit']
-        }
-      }
-      
+    rollupOptions: {
+      external: ['react-redux', 'react-router-dom', '@reduxjs/toolkit']
     }
-    ,
   },
 });
+
 // import { defineConfig } from 'vite'
 
 // export default defineConfig({
