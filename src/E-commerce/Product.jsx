@@ -19,7 +19,7 @@ const Product = () => {
         }, 2000);
     };
 
- 
+
     useEffect(() => {
         const fetchProducts = async () => {
             try {
@@ -55,7 +55,7 @@ const Product = () => {
                             >
                                 <Link to={`/product/${item.id}`} className="block relative h-48 rounded overflow-hidden  p-2 ">
                                     <img alt="ecommerce"
-                                     style={{  maxHeight: '100%', maxWidth: '100%', filter: 'brightness(100%)' }} className="mix-blend-multiply  object-contain w-full h-full block" src={item.image} />
+                                        style={{ maxHeight: '100%', maxWidth: '100%', filter: 'brightness(100%)' }} className="mix-blend-multiply  object-contain w-full h-full block" src={item.image} />
                                 </Link>
                                 <div className="mt-4 text-center">
                                     <h3 className="text-black font-bold mb-1">{item.category}</h3>
