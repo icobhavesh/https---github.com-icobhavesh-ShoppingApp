@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import {BiCart } from 'react-icons/bi';
+import {BiCart } from 'react-icons/bi';
 import { useSelector } from 'react-redux/es/exports';
 // import Hero from "../Demoproject/Hero"
 const Navbar = () => {
@@ -17,19 +17,19 @@ const Navbar = () => {
                     </Link>
                     <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center text-white capitalize font-serif font-bold hover:text-sky-400 cursor-pointer shadow-md  p-4  ">
                         <Link to='/' className="mr-5 hover:text-blue-900"> Home </Link>
-                        <Link to ="/about" className="mr-5 hover:text-blue-900">About </Link>
+                        <Link to="/about" className="mr-5 hover:text-blue-900">About </Link>
                         {/* <Link to='/cart' className="mr-5 hover:text-gray-900 flex justify-center items-center">Cart  <BiCart />{cartItems.length}</Link> */}
-                        <Link to ='/contact' className="mr-5 hover:text-gray-900">Contect </Link>
-                        <Link to ='/addCart' className="mr-5 hover:text-gray-900 ">Cart {cartItems.length>0?cartItems.length:null}  </Link>
+                        <Link to='/contact' className="mr-5 hover:text-gray-900">Contect </Link>
+                        <Link to='/addCart' className="mr-5 hover:text-gray-900 ">Cart {cartItems.length > 0 ? cartItems.length : null}  </Link>
                     </nav>
-                 
-                    
-                    
+
+
+
                 </div>
-                
+
             </header>
 
-        
+
         </>
     )
 }
