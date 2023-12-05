@@ -1,6 +1,6 @@
 import React from 'react'
-import { BiLogoGmail } from "react-icons/bi"
-import { BsTelephoneFill, BsFacebook } from "react-icons/bs"
+// import { BiLogoGmail } from "react-icons/bi"
+// import { BsTelephoneFill, BsFacebook } from "react-icons/bs"
 
 const Contact = () => {
     return (
