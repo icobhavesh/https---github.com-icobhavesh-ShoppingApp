@@ -46,11 +46,11 @@ const Product = () => {
                     Discover the Latest Trends in Fashion with us.
                 </p>
                 <div className="container px-5 py-8 mx-auto">
-                    <div className="flex flex-wrap m-2 md:-m-4">
+                    <div className="md:flex md:flex-wrap m-2 md:-m-4  grid grid-cols-2 ">
                         {products.map((item, id) => (
                             <div
                                 key={id}
-                                className="lg:w-1/4 md:w-1/2 sm:w-full p-2 md:p-4 w-full  bg-slate-300  border-[1px] border-black "
+                                className="lg:w-1/4 md:w-1/2 sm:w-full p-2 md:p-4 w-full  bg-slate-300  border-[1px] border-black  "
 
                             >
                                 <Link to={`/product/${item.id}`} className="block relative h-48 rounded overflow-hidden  p-2 ">
@@ -59,7 +59,7 @@ const Product = () => {
                                 </Link>
                                 <div className="mt-4 text-center">
                                     <h3 className="text-black font-bold mb-1">{item.category}</h3>
-                                    <h2 className="text-gray-900 title-font text-lg font-medium">${item.price}</h2>
+                                    <h2 className="text-gray-900 title-font text-lg font-medium">₹ {item.price}</h2>
                                 </div>
                                 <div className="text-center pt-2 text-black font-bold">
                                     <button className="bg-slate-600 border  outline-none text-white px-2 py-1" onClick={() => addToCartHandler(item)}>
