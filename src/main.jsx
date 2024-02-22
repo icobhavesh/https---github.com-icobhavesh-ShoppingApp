@@ -5,7 +5,7 @@ import Home from './E-commerce/Home.jsx'
 import { Provider } from 'react-redux/es/exports.js'  
 // import { Provider } from 'react-redux'
 import { Store } from "../src/E-commerce/ReactRedux/CardSlice/Store.jsx"
-import Particlebackground from './particles/Particlebackground.jsx'
+// import Particlebackground from './particles/Particlebackground.jsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
