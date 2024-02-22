@@ -46,7 +46,7 @@ const Product = () => {
                     Discover the Latest Trends in Fashion with us.
                 </p>
                 <div className="container px-5 py-8 mx-auto">
-                    <div className="md:flex md:flex-wrap m-2 md:-m-4  grid grid-cols-2 ">
+                    <div className="md:flex md:flex-wrap m-2 md:-m-4  grid grid-cols-2 sm:gap-y-0 sm:gap-x-0   gap-x-2 gap-y-2">
                         {products.map((item, id) => (
                             <div
                                 key={id}

@@ -71,7 +71,7 @@ const AddToCart = () => {
             </div>
           ))}
           <div className=" text-center mt-8">
-            <h2 className="text-xl  text-black font-semibold">Total Price: ${calculateTotalPrice().toFixed(1)}</h2>
+            <h2 className="text-xl  text-black font-semibold">Total Price: ₹{calculateTotalPrice().toFixed(1)}</h2>
           </div>
 
         </div>
