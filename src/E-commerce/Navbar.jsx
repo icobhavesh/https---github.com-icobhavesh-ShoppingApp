@@ -26,7 +26,7 @@ const Navbar = () => {
                         </svg>
                         <span className="ml-3 text-2xl">WatchMe</span>
                     </Link>
-                    <nav className="  w-full  md:w-auto  md:ml-auto flex flex-wrap items-center text-base justify-center text-white capitalize font-serif font-bold hover:text-sky-400 cursor-pointer shadow-md p-4">
+                    <nav className="  w-full  md:w-auto   md:ml-auto flex    flex-wrap items-center text-base justify-center text-white capitalize font-serif font-bold hover:text-sky-400 cursor-pointer shadow-md p-4 ">
                         <Link to="/" className="mr-5 hover:text-blue-900">
                             Home
                         </Link>
