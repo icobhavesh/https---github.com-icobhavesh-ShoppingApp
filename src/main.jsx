@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       
     </Provider>
 
-    <Particlebackground/>
+    {/* <Particlebackground/> */}
   </React.StrictMode>,
 )
 // ReactDOM.createRoot(document.getElementById('root')).render(
